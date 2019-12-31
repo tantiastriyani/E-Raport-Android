@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.skripsi.tanti.m_grading"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\MGrading\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\MGrading\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\MGrading\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\MGrading\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\MGrading\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\MGrading\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->E:\MGrading\app\src\main\AndroidManifest.xml:8:5-35:19
+15        android:name="com.skripsi.tanti.m_grading.app.AppController"
+15-->E:\MGrading\app\src\main\AndroidManifest.xml:9:9-42
+16        android:allowBackup="true"
+16-->E:\MGrading\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\MGrading\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->E:\MGrading\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\MGrading\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->E:\MGrading\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->E:\MGrading\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity android:name="com.skripsi.tanti.m_grading.ChangePasswordActivity" />
+25-->E:\MGrading\app\src\main\AndroidManifest.xml:16:9-69
+25-->E:\MGrading\app\src\main\AndroidManifest.xml:16:19-57
+26        <activity android:name="com.skripsi.tanti.m_grading.EditProfileActivity" />
+26-->E:\MGrading\app\src\main\AndroidManifest.xml:17:9-57
+26-->E:\MGrading\app\src\main\AndroidManifest.xml:17:19-54
+27        <activity android:name="com.skripsi.tanti.m_grading.AttendanceFragment" />
+27-->E:\MGrading\app\src\main\AndroidManifest.xml:18:9-56
+27-->E:\MGrading\app\src\main\AndroidManifest.xml:18:19-53
+28        <activity android:name="com.skripsi.tanti.m_grading.ProfileFragment" />
+28-->E:\MGrading\app\src\main\AndroidManifest.xml:19:9-53
+28-->E:\MGrading\app\src\main\AndroidManifest.xml:19:19-50
+29        <activity android:name="com.skripsi.tanti.m_grading.ScheduleFragment" />
+29-->E:\MGrading\app\src\main\AndroidManifest.xml:20:9-54
+29-->E:\MGrading\app\src\main\AndroidManifest.xml:20:19-51
+30        <activity android:name="com.skripsi.tanti.m_grading.GradeFragment" />
+30-->E:\MGrading\app\src\main\AndroidManifest.xml:21:9-51
+30-->E:\MGrading\app\src\main\AndroidManifest.xml:21:19-48
+31        <activity android:name="com.skripsi.tanti.m_grading.DashboardFragment" />
+31-->E:\MGrading\app\src\main\AndroidManifest.xml:22:9-55
+31-->E:\MGrading\app\src\main\AndroidManifest.xml:22:19-52
+32        <activity
+32-->E:\MGrading\app\src\main\AndroidManifest.xml:23:9-25:64
+33            android:name="com.skripsi.tanti.m_grading.MainMenuActivity"
+33-->E:\MGrading\app\src\main\AndroidManifest.xml:24:13-45
+34            android:label="@string/title_activity_main_menu" />
+34-->E:\MGrading\app\src\main\AndroidManifest.xml:25:13-61
+35        <activity android:name="com.skripsi.tanti.m_grading.ForgotPasswordActivity" />
+35-->E:\MGrading\app\src\main\AndroidManifest.xml:26:9-60
+35-->E:\MGrading\app\src\main\AndroidManifest.xml:26:19-57
+36        <activity android:name="com.skripsi.tanti.m_grading.LoginActivity" >
+36-->E:\MGrading\app\src\main\AndroidManifest.xml:27:9-33:20
+36-->E:\MGrading\app\src\main\AndroidManifest.xml:27:19-48
+37            <intent-filter>
+37-->E:\MGrading\app\src\main\AndroidManifest.xml:28:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\MGrading\app\src\main\AndroidManifest.xml:29:17-69
+38-->E:\MGrading\app\src\main\AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\MGrading\app\src\main\AndroidManifest.xml:31:17-77
+40-->E:\MGrading\app\src\main\AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.skripsi.tanti.m_grading.MainActivity" />
+43-->E:\MGrading\app\src\main\AndroidManifest.xml:34:9-50
+43-->E:\MGrading\app\src\main\AndroidManifest.xml:34:19-47
+44        <activity
+44-->[com.karumi:dexter:5.0.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\a6aee1be1ab1e8eff8bfa43fb16cfae6\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+45            android:name="com.karumi.dexter.DexterActivity"
+45-->[com.karumi:dexter:5.0.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\a6aee1be1ab1e8eff8bfa43fb16cfae6\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+46            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+46-->[com.karumi:dexter:5.0.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\a6aee1be1ab1e8eff8bfa43fb16cfae6\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+47
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+50            android:authorities="com.skripsi.tanti.m_grading.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Luqman\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+53    </application>
+54
+55</manifest>

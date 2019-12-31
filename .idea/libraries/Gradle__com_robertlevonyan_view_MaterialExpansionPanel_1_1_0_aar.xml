@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.robertlevonyan.view:MaterialExpansionPanel:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf20a183cc8da3be2f586246cabfb417/jetified-MaterialExpansionPanel-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf20a183cc8da3be2f586246cabfb417/jetified-MaterialExpansionPanel-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.robertlevonyan.view/MaterialExpansionPanel/1.1.0/bcbbb0b3efcdf09a78caf09583e6d42d6605839f/MaterialExpansionPanel-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.robertlevonyan.view/MaterialExpansionPanel/1.1.0/b86e12ce5c8432e727723d76b7ed8f4b3ec314f4/MaterialExpansionPanel-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
